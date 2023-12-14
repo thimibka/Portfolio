@@ -1,13 +1,17 @@
 * {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
 }
 p,
 li {
-  color: blueviolet;
+  color: rgb(200, 206, 211);
 }
 h1,
 h3 {
-  color: rgb(15, 126, 39);
+  color: rgb(30, 173, 61);
+}
+
+.navbar-toggler-icon {
+  background-color: #0d6efd;
 }
 
 #presentation {
@@ -47,7 +51,7 @@ img {
 }
 #title-diplomes {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   margin-left: 50px;
 }
 #text-diplomes {
@@ -63,13 +67,14 @@ img {
 }
 #title-formation {
   display: flex;
-  justify-content: end;
-  margin-right: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 #text-formation {
-  margin-right: 50px;
+  margin-left: 50px;
   display: flex;
-  justify-content: end;
+  justify-content: start;
 }
 
 #projets {
