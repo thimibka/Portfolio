@@ -1,9 +1,12 @@
 * {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(255, 255, 255);
+}
+body {
+  position: relative;
 }
 p,
 li {
-  color: rgb(200, 206, 211);
+  color: rgb(0, 0, 0);
 }
 h1,
 h3 {
@@ -29,7 +32,7 @@ h3 {
   text-align: center;
 }
 
-.container-image {
+.image-presentation {
   height: 100%;
   width: 100%;
   display: flex;
@@ -38,12 +41,12 @@ h3 {
 #image {
   display: flex;
   justify-content: center;
-  height: 50vh;
-  max-width: 25vw;
+  height: 25vh;
+  width: 25vw;
 }
-img {
+/* img {
   border-radius: 50% 20% / 10% 40%;
-}
+} */
 
 #diplomes {
   display: flex;
@@ -52,11 +55,9 @@ img {
 #title-diplomes {
   display: flex;
   justify-content: center;
-  
 }
 #text-diplomes {
   margin-left: 50px;
-
   display: flex;
   justify-content: start;
 }
@@ -69,7 +70,6 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
 }
 #text-formation {
   margin-left: 50px;
@@ -85,8 +85,40 @@ img {
   display: flex;
   justify-content: center;
 }
-.link {
+#link-projets {
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+#presentation,
+#diplomes,
+#formation,
+#projets {
+  padding-top: 50px;
+}
+
+#text-diplomes li {
+  cursor: pointer;
+}
+
+.projet-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.projet-image {
+  width: 30vw;
+  height: auto;
+  display: none;
+  margin-top: 10px;
+}
+.diplome-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.diplome-image {
+  width: 30vw;
+  height: auto;
+  display: none;
 }
