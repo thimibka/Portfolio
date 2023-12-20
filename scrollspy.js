@@ -1,28 +1,28 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-    target: ".navbar",
-    offset: 50,
-  });
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+//     target: ".navbar",
+//     offset: 50,
+//   });
+// });
 
-let image = document.getElementById("image");
-image.addEventListener(
-  "mouseenter",
-  function (event) {
-    event.target.style.width = "50vw";
-    event.target.style.height = "50vh";
+// let image = document.getElementById("image");
+// image.addEventListener(
+//   "mouseenter",
+//   function (event) {
+//     event.target.style.width = "50vw";
+//     event.target.style.height = "50vh";
 
-    image.addEventListener(
-      "mouseleave",
-      function (event) {
-        event.target.style.width = "";
-        event.target.style.height = "";
-      },
-      500
-    );
-  },
-  false
-);
+//     image.addEventListener(
+//       "mouseleave",
+//       function (event) {
+//         event.target.style.width = "";
+//         event.target.style.height = "";
+//       },
+//       500
+//     );
+//   },
+//   false
+// );
 
 function showImage(index) {
   let image = document.getElementById("image-diplome-" + index);

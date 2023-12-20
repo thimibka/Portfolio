@@ -1,6 +1,3 @@
-* {
-  background-color: rgb(255, 255, 255);
-}
 body {
   position: relative;
 }
@@ -20,6 +17,7 @@ h3 {
 #presentation {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 #title-presentation {
   display: flex;
@@ -55,13 +53,8 @@ h3 {
 #title-diplomes {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-#text-diplomes {
-  margin-left: 50px;
-  display: flex;
-  justify-content: start;
-}
-
 #formation {
   display: flex;
   flex-direction: column;
@@ -99,6 +92,8 @@ h3 {
 
 #text-diplomes li {
   cursor: pointer;
+  display: flex;
+  align-items: start;
 }
 
 .projet-title-container {
@@ -114,11 +109,41 @@ h3 {
 }
 .diplome-title-container {
   display: flex;
-  flex-direction: column;
-  align-items: start;
+
+  align-items: end;
 }
 .diplome-image {
   width: 30vw;
   height: auto;
   display: none;
+}
+.diplome1 {
+
+  height: 150px;
+  display: flex;
+}
+.diplome2 {
+  
+  height: 150px;
+  display: flex;
+}
+.diplome3 {
+  
+  height: 150px;
+  display: flex;
+}
+.diplome4 {
+  
+  height: 150px;
+  display: flex;
+}
+.diplome5 {
+  
+  height: 150px;
+  display: flex;
+}
+.diplome6 {
+  
+  height: 150px;
+  display: flex;
 }
